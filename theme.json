@@ -17,7 +17,20 @@
   "license": "AGPL-3.0",
   "devStyles": ["dist/zon-amp-089e219d1b.css"],
   "styles": ["dist/zon-amp-089e219d1b.css"],
-  "options": [],
+  "options": [
+        {
+            "name": "showLiveblogLogo",
+            "default": false
+        },
+        {
+            "name": "showGallery",
+            "default": true
+        },
+        {
+            "name": "language",
+            "default": "de"
+        }
+  ],
   "i18n": {
         "cs": {
           "Highlights": "Hlavní body",
