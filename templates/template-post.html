@@ -70,10 +70,10 @@
 
   <span class="lb-post-time lb-post-time--{% if item.sticky %}sticky{% else %}default{% endif %}
     {%- if item.lb_highlight %} lb-post-time--highlight{% endif %}">
-    {{- postDate | date('LT') -}}
+    {{ postDate | date('HH:mm') }} Uhr
   </span>
   <time class="lb-post-date" itemprop="datePublished" datetime="{{ postDate }}">
-    {{- postDate | date('LL') -}}
+    {{ postDate | date('D. MMMM YYYY') }}
   </time>
 
   <!-- author plus avatar -->
