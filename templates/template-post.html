@@ -55,7 +55,7 @@
       height="20"
       >
       </amp-img>
-    {% elif item.post_items_type | truncate(5, True, '', 0) == "embed" %}
+    {% elif item.post_items_type and item.post_items_type | truncate(5, True, '', 0) == "embed" %}
       <amp-img src="{{ assets_root }}images/link-icon.png"
       layout="fixed"
       width="40"
