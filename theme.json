@@ -15,21 +15,13 @@
     "url" : "git@github.com:ZeitOnline/liveblog-amp-theme"
   },
   "license": "AGPL-3.0",
-  "devStyles": ["dist/zon-amp-solo-18d88766f7.css"],
-  "styles": ["dist/zon-amp-solo-18d88766f7.css"],
+  "devStyles": ["dist/zon-amp-solo-00b3dfe729.css"],
+  "styles": ["dist/zon-amp-solo-00b3dfe729.css"],
   "options": [
-        {
-            "name": "showLiveblogLogo",
-            "default": false
-        },
-        {
-            "name": "showGallery",
-            "default": true
-        },
-        {
-            "name": "language",
-            "default": "de"
-        }
+    {
+      "name": "showAuthor",
+      "default": false
+    }
   ],
   "i18n": {
         "cs": {

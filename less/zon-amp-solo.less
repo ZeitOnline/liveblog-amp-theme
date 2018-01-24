@@ -1,7 +1,15 @@
-article.lb-post {
+@import "globals.less";
+
+article.lb-post:not(.lb-post--sticky) {
   padding-left: 20px;
   
   &::before {
     content: none;
+  }
+}
+
+@media @tablet {
+  article.lb-post:not(.lb-post--sticky) {
+    padding-left: 30px;
   }
 }
