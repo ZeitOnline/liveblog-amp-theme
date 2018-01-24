@@ -5,7 +5,7 @@
   "seoTheme": true,
   "ampTheme": true,
   "extends": "zon-amp",
-  "onlyOwnCss": "true",
+  "onlyOwnCss": false,
   "author": "ZEIT ONLINE <kontakt@zeit.de>",
   "contributors": [
     "Moritz Stoltenburg <moritz.stoltenburg@zeit.de>"
