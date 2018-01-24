@@ -1,10 +1,10 @@
 {
   "label": "ZEIT ONLINE AMP Theme",
-  "name": "zon-amp",
+  "name": "zon-amp-solo",
   "version": "0.1.9",
   "seoTheme": true,
   "ampTheme": true,
-  "extends": "amp",
+  "extends": "zon-amp",
   "onlyOwnCss": "true",
   "author": "ZEIT ONLINE <kontakt@zeit.de>",
   "contributors": [
@@ -15,8 +15,8 @@
     "url" : "git@github.com:ZeitOnline/liveblog-amp-theme"
   },
   "license": "AGPL-3.0",
-  "devStyles": ["dist/zon-amp-0020697a29.css"],
-  "styles": ["dist/zon-amp-0020697a29.css"],
+  "devStyles": ["dist/zon-amp-solo-0020697a29.css"],
+  "styles": ["dist/zon-amp-solo-0020697a29.css"],
   "options": [
         {
             "name": "showLiveblogLogo",
