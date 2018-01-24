@@ -9,6 +9,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "liveblog-zon-amp-theme": "git@github.com:ZeitOnline/liveblog-amp-theme.git"
+    "liveblog-zon-amp-theme": "git+https://github.com/ZeitOnline/liveblog-amp-theme.git"
   }
 }

@@ -1,7 +1,7 @@
 {
   "label": "ZEIT ONLINE AMP Theme",
   "name": "zon-amp-solo",
-  "version": "0.1.9",
+  "version": "0.1.8",
   "seoTheme": true,
   "ampTheme": true,
   "extends": "zon-amp",
