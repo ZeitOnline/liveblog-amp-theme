@@ -64,17 +64,9 @@
     {% endif %}
   </div>
   
-  {% if item.sticky -%}
-    <amp-img src="{{ assets_root }}images/pinpost.svg" width="11" height="16" class="lb-pin-icon" ></amp-img>
-  {% endif -%}
+  {% include "template-itemheader-mark.html" %}
 
-  <span class="lb-post-time lb-post-time--{% if item.sticky %}sticky{% else %}default{% endif %}
-    {%- if item.lb_highlight %} lb-post-time--highlight{% endif %}">
-    {{ postDate | date('HH:mm') }} Uhr
-  </span>
-  <time class="lb-post-date" itemprop="datePublished" datetime="{{ postDate }}">
-    {{ postDate | date('D. MMMM YYYY') }}
-  </time>
+  {% include "template-itemheader-date.html" %}
 
   <!-- author plus avatar -->
   <div class="lb-author">
