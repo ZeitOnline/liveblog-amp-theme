@@ -1,0 +1,7 @@
+<span class="lb-post-time lb-post-time--{% if item.sticky %}sticky{% else %}default{% endif %}
+  {%- if item.lb_highlight %} lb-post-time--highlight{% endif %}">
+  {{ postDate | date('HH:mm') }} Uhr
+</span>
+<time class="lb-post-date" datetime="{{ postDate }}">
+  {{ postDate | date('D. MMMM YYYY') }}
+</time>
