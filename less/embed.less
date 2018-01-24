@@ -79,6 +79,7 @@
   color: @grey;
   font-size: 14px;
   letter-spacing: 0.03em;
+  margin: 20px 0 0;
 }
 
 /* pinned posts */
@@ -161,7 +162,7 @@
   border-radius: 50%;
   display: none;
   height: 42px;
-  margin-left: 16px;
+  margin-left: 12px;
   overflow: hidden;
   width: 42px;
 }
@@ -186,7 +187,7 @@
   font-family: "FranziskaWebPro", Georgia, Palatino, "Palatino Linotype", FreeSerif, serif;
   font-size: 18px;
   line-height: 1.4;
-  margin: 20px 0;
+  margin: 20px 0 0;
 }
 
 @media @tablet {
@@ -204,7 +205,8 @@
 // Quote
 
 .lb-quote {
-  margin: 0;
+  margin: auto;
+  max-width: 528px;
   text-align: center;
 
   p {
@@ -226,6 +228,12 @@
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
+  }
+}
+
+@media @tablet {
+  .lb-quote {
+    max-width: 80%;
   }
 }
 
@@ -326,9 +334,7 @@
   }
 
   .credit {
-    font-size: .7em;
     float: right;
-    color: #999;
   }
 
   .mod--hide {
