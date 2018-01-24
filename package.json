@@ -9,6 +9,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "liveblog-amp-theme": "git@github.com:liveblog/liveblog-amp-theme.git"
+    "liveblog-amp-theme": "git+https://github.com/liveblog/liveblog-amp-theme.git"
   }
 }
