@@ -1,49 +1,54 @@
-<div class="scorecard-top">
-  <div class="scorecard-top__column scorecard-top__column--result">{{ ref.item.meta.data.home.score }}:{{ ref.item.meta.data.away.score }}</div>
-  
-  <div class="scorecard-top__column scorecard-top__column--home">
+<div class="lb-scorecard">
+  <div class="lb-scorecard__column lb-scorecard__column--home">
     {% if ref.item.meta.data.home.img1.picture_url %}
-      <amp-img src="{{ ref.item.meta.data.home.img1.picture_url }}"
-          layout="responsive"
-          height="100"
-          width="100">
+      <amp-img src="{{ ref.item.meta.data.home.img1.picture_url }}" 
+        class="lb-scorecard__image"
+        layout="responsive"
+        height="100"
+        width="100">
       </amp-img>
     {% endif %}
-    <span class="team-name">{{ ref.item.meta.data.home.name }}</span>
-    <ul class="scorecard-top__scorers">
-    {% for scorer in ref.item.meta.data.home.scorers %}
-      {% if scorer.time %}
-        <li>{{scorer.time}}&prime; {{scorer.name}}</p>
-      {% endif %}
-      {% endfor %}
+    <span class="lb-scorecard__team-name">{{ ref.item.meta.data.home.name }}</span>
+    <ul class="lb-scorecard__scorers">
+      {% for scorer in ref.item.meta.data.home.scorers -%}
+        {% if scorer.time -%}
+          <li>{{ scorer.time }}&prime; {{ scorer.name }}</li>
+        {% endif -%}
+      {% endfor -%}
     </ul>
   </div>
+
+  <div class="lb-scorecard__column lb-scorecard__column--result">
+    {{- ref.item.meta.data.home.score }}:{{ ref.item.meta.data.away.score -}}
+  </div>
   
-  <div class="scorecard-top__column scorecard-top__column--away">
+  <div class="lb-scorecard__column lb-scorecard__column--away">
     {% if ref.item.meta.data.away.img1.picture_url %}
       <amp-img src="{{ ref.item.meta.data.away.img1.picture_url }}"
-          layout="responsive"
-          height="100"
-          width="100">
+        class="lb-scorecard__image"
+        layout="responsive"
+        height="100"
+        width="100">
       </amp-img>
     {% endif %}
-    <span class="team-name">{{ ref.item.meta.data.away.name }}</span>
-    <ul class="scorecard-top__scorers">
-    {% for scorer in ref.item.meta.data.away.scorers %}
-      {% if scorer.time %}
-        <li>{{scorer.time}}&prime; {{scorer.name}}</li>
-      {% endif %}
-      {% endfor %}
+    <span class="lb-scorecard__team-name">{{ ref.item.meta.data.away.name }}</span>
+    <ul class="lb-scorecard__scorers">
+      {% for scorer in ref.item.meta.data.away.scorers -%}
+        {% if scorer.time -%}
+          <li>{{ scorer.time }}&prime; {{ scorer.name }}</li>
+        {% endif -%}
+      {% endfor -%}
     </ul>
   </div>
-  {% if ref.item.meta.data.match.info or ref.item.meta.data.match.quaters %}
-    <div class="scorecard-top__info">
-      <div>
-          <span class="match-quaters">{{ref.item.meta.data.match.quaters}}</span>
+
+  {% if ref.item.meta.data.match.info or ref.item.meta.data.match.quaters -%}
+    <div class="lb-scorecard__info">
+      <div class="lb-scorecard__match-quarters">
+          {{- ref.item.meta.data.match.quaters -}}
       </div>
-      <div>
-          <span class="match-info">{{ref.item.meta.data.match.info}}</span>
+      <div class="lb-scorecard__match-info">
+          {{- ref.item.meta.data.match.info -}}
       </div>
     </div>
-  {% endif %}
+  {% endif -%}
 </div>
