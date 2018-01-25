@@ -11,6 +11,7 @@
 @darkgrey:     #535560;
 @lightergrey:  #eeeeee;
 @yellow:       #ffe246;
+@orange:       #e16752;
 
  /* Breakpoints */
 
@@ -22,3 +23,9 @@
 @phablet:   ~"screen and (min-width: 32.5em)";  // 520px
 @tablet:    ~"screen and (min-width: 48em)";    // 768px
 @desktop:   ~"screen and (min-width: 61.25em)"; // 980px
+
+.font-smoothing() {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}

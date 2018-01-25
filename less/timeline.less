@@ -153,6 +153,7 @@
 }
 
 .lb-author__name {
+  .font-smoothing;
   font-weight: bold;
   letter-spacing: 0.03em;
   margin-top: 1em;
@@ -167,7 +168,7 @@
   width: 42px;
 }
 
-@media screen and (min-width: 32.5em) {
+@media @phablet {
   .lb-author {
     float: right;
     margin-top: -9px;
@@ -224,6 +225,7 @@
   }
 
   cite {
+    .font-smoothing;
     font-family: "TabletGothic", "Helvetica Neue", Helvetica, Arial, FreeSans, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -352,9 +354,6 @@
       font-size: 1.25em;
       line-height: 1.25;
       margin-top: .5em;
-  }
-  .item--embed__title a {
-    text-decoration: none;
   }
   .item--embed__credit {
       text-align: right;
