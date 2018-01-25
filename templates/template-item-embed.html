@@ -22,7 +22,9 @@
     layout="responsive">
   </amp-instagram>
 {% else %}
-  {% if ref.item.meta.thumbnail_url and not ref.item.meta.provider_name == 'Brightcove' %}
+  {% if ref.item.meta.html %}
+    {{ ref.item.meta.html | ampify | safe}}
+  {% elif ref.item.meta.thumbnail_url %}
     <figure>
       <amp-img src="{{ ref.item.meta.thumbnail_url }}"
         layout="responsive"
@@ -31,9 +33,6 @@
         alt="">
       </amp-img>
     </figure>
-  {% endif %}
-  {% if ref.item.meta.html %}
-    {{ ref.item.meta.html | ampify | safe}}
   {% endif %}
   {% if ref.item.meta.title %}
     <div class="item--embed__title" >
