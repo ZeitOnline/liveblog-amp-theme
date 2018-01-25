@@ -273,9 +273,36 @@
   max-width: 1000px;
   overflow: hidden;
 
+  * {
+    box-sizing: content-box;
+  }
+
+  amp-img {
+      max-width: 100%;
+  }
+
   amp-social-share {
     background-size: 25px;
     border-radius: 100%;
+  }
+
+  /* images */
+  article .liveblog--card {
+      font-size: 0.9em;
+      line-height: 1.25em;
+  }
+
+  /* Figure */
+
+  figcaption {
+      font-size: .75em;
+      line-height: 1.3em;
+      margin-top: .5em;
+      color: #666;
+
+      b {
+        font-weight: normal;
+      }
   }
 
   // Header Bar
