@@ -1,6 +1,4 @@
-<span class="lb-post-time lb-post-time--sticky {%- if item.lb_highlight %} lb-post-time--highlight{% endif %}">
-  {{ postDate | date('HH:mm') }} Uhr
-</span>
-<time class="lb-post-date" datetime="{{ postDate }}">
-  {{ postDate | date('D. MMMM YYYY') }}
-</time>
+<amp-timeago class="lb-post-timeago
+  {%- if item.lb_highlight %} lb-post-time--highlight{% endif %}" datetime="{{ postDate }}" locale="{{ settings.language }}">
+  {{- postDate | date -}}
+</amp-timeago>
