@@ -1,7 +1,7 @@
 {
   "label": "ZEIT ONLINE AMP Theme - Solo",
   "name": "zon-amp-solo",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "seoTheme": true,
   "ampTheme": true,
   "extends": "zon-amp",
@@ -15,8 +15,8 @@
     "url" : "git@github.com:ZeitOnline/liveblog-amp-theme"
   },
   "license": "AGPL-3.0",
-  "devStyles": ["dist/zon-amp-solo-d8a3ccd9ae.css"],
-  "styles": ["dist/zon-amp-solo-d8a3ccd9ae.css"],
+  "devStyles": ["dist/zon-amp-solo-a2ca5a3691.css"],
+  "styles": ["dist/zon-amp-solo-a2ca5a3691.css"],
   "options": [
     {
       "name": "showAuthor",
