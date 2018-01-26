@@ -31,11 +31,12 @@
 
 .lb-scorecard__column--result {
   .font-smoothing;
+  align-self: center;
   flex: 0 0 100%;
   font-family: "TabletGothic", "Helvetica Neue", Helvetica, Arial, FreeSans, sans-serif;
-  font-size: 12vw;
+  font-size: 15vw;
   font-weight: bold;
-  max-height: 150px;
+  line-height: normal;
   order: -1;
 }
 
@@ -45,9 +46,11 @@
 
 .lb-scorecard__team-name {
   .font-smoothing;
+  display: inline-block;
   font-size: 24px;
   font-weight: bold;
   line-height: 1.1;
+  margin-top: 10px;
 }
 
 .lb-scorecard__scorers {
@@ -76,7 +79,6 @@
 
   .lb-scorecard__column--result {
     flex: 1 1 33%;
-    // font-size: 160px;
     order: 0;
   }
 
@@ -87,6 +89,6 @@
 
 @media @desktop {
   .lb-scorecard__column--result {
-    font-size: 118px; // @media (min-width: 980px) * 12vw
+    font-size: 147px; // @media (min-width: 980px) * 15vw
   }
 }
