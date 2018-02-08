@@ -1,6 +1,6 @@
 {% macro translate(text) %}{% if not options.i18n[settings.language] %}{{ text }}{% elif not options.i18n[settings.language][text] %}{{ text }}{% else %}{{ options.i18n[settings.language][text] }}{% endif %}{% endmacro %}
 
-<div class="lb-timeline {{ settings.language }}">
+<div class="lb-timeline {{ settings.language }} lb-{{ blog.blog_preferences.theme }}-theme lb-{% if settings.showAuthor %}author{% else %}no-author{% endif %}-theme">
   {% if settings.showTitle and blog.title %}
   <h1>{{ blog.title }}</h1>
   {% endif %}
