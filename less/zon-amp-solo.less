@@ -1,20 +1,23 @@
 @import "globals.less";
 
-article.lb-post:not(.lb-post--sticky) {
-  padding-left: 20px;
-  
-  &::before {
-    content: none;
+.lb-no-author-theme {
+  .lb-post:not(.lb-post--sticky) {
+    padding-left: 20px;
+    
+    &::before {
+      content: none;
+    }
   }
-}
 
-@media @tablet {
-  article.lb-post {
-    padding-top: 40px;
+  @media @tablet {
+    .lb-post {
+      padding-top: 40px;
+    }
+    .lb-post:not(.lb-post--sticky) {
+      padding-left: 30px;
+    }
   }
-  article.lb-post:not(.lb-post--sticky) {
-    padding-left: 30px;
-  }
+
 }
 
 .lb-post-timeago {
