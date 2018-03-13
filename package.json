@@ -5,8 +5,9 @@
   "author": "ZEIT ONLINE <kontakt@zeit.de>",
   "repository": "git@github.com:ZeitOnline/liveblog-amp-theme.git",
   "license": "AGPL-3.0",
+  "main": "js/liveblog.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp"
   },
   "dependencies": {
     "liveblog-zon-amp-theme": "git+https://github.com/ZeitOnline/liveblog-amp-theme.git"
