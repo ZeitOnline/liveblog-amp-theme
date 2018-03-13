@@ -1265,6 +1265,444 @@
     "posts": {
         "_items": [
             {
+              "_created": "2018-03-13T11:05:36+00:00",
+              "_current_version": 1,
+              "_etag": "0bc8b845cbaa16b1b5e6e12498127a051ca47d90",
+              "_id": "urn:newsml:localhost:2018-03-13T12:05:38.080351:1cf45ed9-e61d-485d-a62d-7970e8a77d03",
+              "_links": {
+                "self": {
+                  "href": "/posts/urn:newsml:localhost:2018-03-13T12:05:38.080351:1cf45ed9-e61d-485d-a62d-7970e8a77d03",
+                  "title": "Posts"
+                }
+              },
+              "_type": "archive",
+              "_updated": "2018-03-13T11:05:36+00:00",
+              "blog": "5a4ba1b76aa4f500eb91feb6",
+              "byline": "Moritz Stoltenburg",
+              "content_updated_date": "2018-03-13T11:05:38+00:00",
+              "deleted": false,
+              "event_id": "tag:localhost:2018:8ea45a87-2933-4909-bed6-50c6f5383dc8",
+              "family_id": "urn:newsml:localhost:2018-03-13T12:05:38.080351:1cf45ed9-e61d-485d-a62d-7970e8a77d03",
+              "firstcreated": "2018-03-13T11:05:38+00:00",
+              "flags": {
+                "marked_archived_only": false,
+                "marked_for_legal": false,
+                "marked_for_not_publication": false,
+                "marked_for_sms": false
+              },
+              "format": "HTML",
+              "genre": [
+                {
+                  "name": "Article (news)",
+                  "qcode": "Article"
+                }
+              ],
+              "groups": [
+                {
+                  "id": "root",
+                  "refs": [
+                    {
+                      "idRef": "main"
+                    }
+                  ],
+                  "role": "grpRole:NEP"
+                },
+                {
+                  "id": "main",
+                  "refs": [
+                    {
+                      "guid": "urn:newsml:localhost:2018-03-13T12:05:35.161617:f2110d67-af48-4769-9bcc-31bd788d023c",
+                      "item": {
+                        "_created": "2018-03-13T11:05:35+00:00",
+                        "_current_version": 1,
+                        "_etag": "4d5c29626003919d4354515ff43edab39117b3a9",
+                        "_id": "urn:newsml:localhost:2018-03-13T12:05:35.161617:f2110d67-af48-4769-9bcc-31bd788d023c",
+                        "_updated": "2018-03-13T11:05:40+00:00",
+                        "blog": "5a4ba1b76aa4f500eb91feb6",
+                        "byline": "Moritz Stoltenburg",
+                        "event_id": "tag:localhost:2018:d448e0a3-edca-478d-9b7b-eb775f74ba38",
+                        "family_id": "urn:newsml:localhost:2018-03-13T12:05:35.161617:f2110d67-af48-4769-9bcc-31bd788d023c",
+                        "filemeta_json": "{\"credit\": \"Brightcove\", \"height\": 197, \"html\": \"<iframe class=\\\"embedly-embed\\\" src=\\\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayers.brightcove.net%2Fpages%2Fv1%2Findex.html%3FaccountId%3D18140073001%26playerId%3Ddefault%26videoId%3D5750253445001%26mode%3Diframe&amp;url=https%3A%2F%2Fplayers.brightcove.net%2F18140073001%2Fdefault_default%2Findex.html%3FvideoId%3D5750253445001&amp;image=http%3A%2F%2Fbrightcove.vo.llnwd.net%2Fv1%2Funsecured%2Fmedia%2F18140073001%2F201803%2F81%2F18140073001_5750269796001_5750253445001-vs.jpg%3FpubId%3D18140073001%26videoId%3D5750253445001&amp;key=82645d4daa7742cc891c21506d28235e&amp;type=text%2Fhtml&amp;schema=brightcove\\\" width=\\\"350\\\" height=\\\"197\\\" scrolling=\\\"no\\\" frameborder=\\\"0\\\" allowfullscreen=\\\"\\\"></iframe>\", \"original_url\": \"https://players.brightcove.net/18140073001/default_default/index.html?videoId=5750253445001\", \"provider_name\": \"Brightcove\", \"provider_url\": \"https://players.brightcove.net/pages/v1/index.html?accountId=18140073001&playerId=default&videoId=5750253445001\", \"thumbnail_height\": 720, \"thumbnail_url\": \"http://brightcove.vo.llnwd.net/v1/unsecured/media/18140073001/201803/81/18140073001_5750269796001_5750253445001-vs.jpg?pubId=18140073001&videoId=5750253445001\", \"thumbnail_width\": 1280, \"title\": \"Einstürzende Eisbrücken im Gletscherpark\", \"type\": \"video\", \"version\": \"1.0\", \"width\": 350}",
+                        "firstcreated": "2018-03-13T11:05:35+00:00",
+                        "flags": {
+                          "marked_archived_only": false,
+                          "marked_for_legal": false,
+                          "marked_for_not_publication": false,
+                          "marked_for_sms": false
+                        },
+                        "format": "HTML",
+                        "genre": [
+                          {
+                            "name": "Article (news)",
+                            "qcode": "Article"
+                          }
+                        ],
+                        "group_type": "default",
+                        "guid": "urn:newsml:localhost:2018-03-13T12:05:35.161617:f2110d67-af48-4769-9bcc-31bd788d023c",
+                        "item_type": "embed",
+                        "language": "en",
+                        "linked_in_packages": [
+                          {
+                            "package": "urn:newsml:localhost:2018-03-13T12:05:38.080351:1cf45ed9-e61d-485d-a62d-7970e8a77d03"
+                          }
+                        ],
+                        "meta": {
+                          "credit": "Brightcove",
+                          "height": "197",
+                          "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayers.brightcove.net%2Fpages%2Fv1%2Findex.html%3FaccountId%3D18140073001%26playerId%3Ddefault%26videoId%3D5750253445001%26mode%3Diframe&amp;url=https%3A%2F%2Fplayers.brightcove.net%2F18140073001%2Fdefault_default%2Findex.html%3FvideoId%3D5750253445001&amp;image=http%3A%2F%2Fbrightcove.vo.llnwd.net%2Fv1%2Funsecured%2Fmedia%2F18140073001%2F201803%2F81%2F18140073001_5750269796001_5750253445001-vs.jpg%3FpubId%3D18140073001%26videoId%3D5750253445001&amp;key=82645d4daa7742cc891c21506d28235e&amp;type=text%2Fhtml&amp;schema=brightcove\" width=\"350\" height=\"197\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"\"></iframe>",
+                          "original_url": "https://players.brightcove.net/18140073001/default_default/index.html?videoId=5750253445001",
+                          "provider_name": "Brightcove",
+                          "provider_url": "https://players.brightcove.net/pages/v1/index.html?accountId=18140073001&playerId=default&videoId=5750253445001",
+                          "thumbnail_height": 720,
+                          "thumbnail_url": "http://brightcove.vo.llnwd.net/v1/unsecured/media/18140073001/201803/81/18140073001_5750269796001_5750253445001-vs.jpg?pubId=18140073001&videoId=5750253445001",
+                          "thumbnail_width": 1280,
+                          "title": "Einstürzende Eisbrücken im Gletscherpark",
+                          "type": "video",
+                          "version": "1.0",
+                          "width": "350"
+                        },
+                        "operation": "create",
+                        "original_creator": {
+                          "_created": "2017-12-20T15:08:29+00:00",
+                          "_etag": "ae550282aaeecd4e444415346b0b1e3f3b6c0606",
+                          "_id": "5a3a7ced6aa4f500eb91fea5",
+                          "_updated": "2018-03-13T10:54:35+00:00",
+                          "avatar": "5a4bb2736aa4f500f30315de",
+                          "avatar_renditions": {
+                            "original": {
+                              "height": 263,
+                              "href": "https://zeit.liveblog.pro/zeit/20180102170124/4f061a541374292917119f341da27c8905e325380ec2a7886768237b4a25715e.png",
+                              "media": "zeit/20180102170124/4f061a541374292917119f341da27c8905e325380ec2a7886768237b4a25715e.png",
+                              "mimetype": "image/png",
+                              "width": 263
+                            },
+                            "thumbnail": {
+                              "height": 60,
+                              "href": "https://zeit.liveblog.pro/zeit/20180102170124/d8190d7283e98b43fd156c86e094f5afc1f6e2ea1bd9c0ca0b0ae22f5d8868c2.png",
+                              "media": "zeit/20180102170124/d8190d7283e98b43fd156c86e094f5afc1f6e2ea1bd9c0ca0b0ae22f5d8868c2.png",
+                              "mimetype": "image/png",
+                              "width": 59
+                            },
+                            "viewImage": {
+                              "height": 200,
+                              "href": "https://zeit.liveblog.pro/zeit/20180102170124/2cd1405dff853439e156efb7284254e0ffd7bfa5caa8a6a02513714e8e4b9df8.png",
+                              "media": "zeit/20180102170124/2cd1405dff853439e156efb7284254e0ffd7bfa5caa8a6a02513714e8e4b9df8.png",
+                              "mimetype": "image/png",
+                              "width": 200
+                            }
+                          },
+                          "byline": "Moritz Stoltenburg",
+                          "display_name": "Moritz Stoltenburg",
+                          "email": "moritz.stoltenburg@zeit.de",
+                          "first_name": "Moritz",
+                          "invisible_stages": [],
+                          "is_active": true,
+                          "is_enabled": true,
+                          "last_name": "Stoltenburg",
+                          "needs_activation": false,
+                          "phone": null,
+                          "picture_url": "https://zeit.liveblog.pro/zeit/20180102170124/2cd1405dff853439e156efb7284254e0ffd7bfa5caa8a6a02513714e8e4b9df8.png",
+                          "role": "54e64cde1024542de2649be9",
+                          "session_preferences": {
+                            "5aa7adeb6aa4f5014d674a35": {
+                              "desk:items": [],
+                              "desk:last_worked": "",
+                              "pinned:items": [],
+                              "scratchpad:items": [],
+                              "stage:items": []
+                            }
+                          },
+                          "sign_off": "MS",
+                          "user_preferences": {
+                            "agg:view": {
+                              "active": {}
+                            },
+                            "archive:view": {
+                              "allowed": [
+                                "mgrid",
+                                "compact"
+                              ],
+                              "category": "archive",
+                              "default": "mgrid",
+                              "label": "Users archive view format",
+                              "type": "string",
+                              "view": "mgrid"
+                            },
+                            "article:default:place": {
+                              "category": "article_defaults",
+                              "label": "Place",
+                              "place": [],
+                              "type": "list"
+                            },
+                            "categories:preferred": {
+                              "category": "categories",
+                              "label": "Preferred Categories",
+                              "selected": {},
+                              "type": "dict"
+                            },
+                            "dashboard:ingest": {
+                              "providers": []
+                            },
+                            "dateline:located": {
+                              "category": "article_defaults",
+                              "label": "Located",
+                              "type": "dict"
+                            },
+                            "desks:preferred": {
+                              "category": "desks",
+                              "label": "Preferred Desks",
+                              "selected": {},
+                              "type": "dict"
+                            },
+                            "destination:active": {},
+                            "editor:theme": {
+                              "theme": "",
+                              "type": "string"
+                            },
+                            "email:notification": {
+                              "category": "notifications",
+                              "default": true,
+                              "enabled": true,
+                              "label": "Send notifications via email",
+                              "type": "bool"
+                            },
+                            "feature:preview": {
+                              "category": "feature",
+                              "default": false,
+                              "enabled": false,
+                              "label": "Enable Feature Preview",
+                              "privileges": [
+                                "feature_preview"
+                              ],
+                              "type": "bool"
+                            },
+                            "singleline:view": {
+                              "category": "rows",
+                              "default": false,
+                              "enabled": null,
+                              "label": "Enable Single Line View",
+                              "type": "bool"
+                            },
+                            "spellchecker:status": {
+                              "default": true,
+                              "enabled": true,
+                              "type": "bool"
+                            },
+                            "templates:recent": {},
+                            "workqueue:items": {
+                              "items": []
+                            },
+                            "workspace:active": {
+                              "type": "string",
+                              "workspace": ""
+                            }
+                          },
+                          "user_type": "administrator",
+                          "username": "slomo"
+                        },
+                        "particular_type": "item",
+                        "place": [],
+                        "priority": 3,
+                        "pubstatus": "usable",
+                        "schedule_settings": {
+                          "time_zone": null,
+                          "utc_embargo": null
+                        },
+                        "sign_off": "MS",
+                        "source": "Liveblog",
+                        "state": "draft",
+                        "text": "<div class=\"liveblog--card\">\n  <div class=\"st-embed-block embed-preview\"><iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayers.brightcove.net%2Fpages%2Fv1%2Findex.html%3FaccountId%3D18140073001%26playerId%3Ddefault%26videoId%3D5750253445001%26mode%3Diframe&amp;url=https%3A%2F%2Fplayers.brightcove.net%2F18140073001%2Fdefault_default%2Findex.html%3FvideoId%3D5750253445001&amp;image=http%3A%2F%2Fbrightcove.vo.llnwd.net%2Fv1%2Funsecured%2Fmedia%2F18140073001%2F201803%2F81%2F18140073001_5750269796001_5750253445001-vs.jpg%3FpubId%3D18140073001%26videoId%3D5750253445001&amp;key=82645d4daa7742cc891c21506d28235e&amp;type=text%2Fhtml&amp;schema=brightcove\" width=\"350\" height=\"197\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"\"></iframe></div>\n  <div class=\"hidden st-embed-block cover-preview-handler\">\n    <div class=\"st-embed-block cover-preview\"></div>\n  </div>\n  <div class=\"st-embed-block title-preview\">Einstürzende Eisbrücken im Gletscherpark</div>\n  <div class=\"st-embed-block description-preview\"></div>\n  <div class=\"st-embed-block credit-preview\">Brightcove</div>\n  <a class=\"hidden st-embed-block link-preview\" target=\"_blank\"></a>\n</div>",
+                        "type": "text",
+                        "unique_id": 957,
+                        "unique_name": "#957",
+                        "urgency": 3,
+                        "version_creator": "5a3a7ced6aa4f500eb91fea5",
+                        "versioncreated": "2018-03-13T11:05:35+00:00"
+                      },
+                      "residRef": "urn:newsml:localhost:2018-03-13T12:05:35.161617:f2110d67-af48-4769-9bcc-31bd788d023c",
+                      "type": "text"
+                    }
+                  ],
+                  "role": "grpRole:Main"
+                }
+              ],
+              "guid": "urn:newsml:localhost:2018-03-13T12:05:38.080351:1cf45ed9-e61d-485d-a62d-7970e8a77d03",
+              "language": "en",
+              "lb_highlight": false,
+              "operation": "create",
+              "order": 30.0,
+              "original_creator": {
+                "_created": "2017-12-20T15:08:29+00:00",
+                "_etag": "ae550282aaeecd4e444415346b0b1e3f3b6c0606",
+                "_id": "5a3a7ced6aa4f500eb91fea5",
+                "_updated": "2018-03-13T10:54:35+00:00",
+                "avatar": "5a4bb2736aa4f500f30315de",
+                "avatar_renditions": {
+                  "original": {
+                    "height": 263,
+                    "href": "https://zeit.liveblog.pro/zeit/20180102170124/4f061a541374292917119f341da27c8905e325380ec2a7886768237b4a25715e.png",
+                    "media": "zeit/20180102170124/4f061a541374292917119f341da27c8905e325380ec2a7886768237b4a25715e.png",
+                    "mimetype": "image/png",
+                    "width": 263
+                  },
+                  "thumbnail": {
+                    "height": 60,
+                    "href": "https://zeit.liveblog.pro/zeit/20180102170124/d8190d7283e98b43fd156c86e094f5afc1f6e2ea1bd9c0ca0b0ae22f5d8868c2.png",
+                    "media": "zeit/20180102170124/d8190d7283e98b43fd156c86e094f5afc1f6e2ea1bd9c0ca0b0ae22f5d8868c2.png",
+                    "mimetype": "image/png",
+                    "width": 59
+                  },
+                  "viewImage": {
+                    "height": 200,
+                    "href": "https://zeit.liveblog.pro/zeit/20180102170124/2cd1405dff853439e156efb7284254e0ffd7bfa5caa8a6a02513714e8e4b9df8.png",
+                    "media": "zeit/20180102170124/2cd1405dff853439e156efb7284254e0ffd7bfa5caa8a6a02513714e8e4b9df8.png",
+                    "mimetype": "image/png",
+                    "width": 200
+                  }
+                },
+                "byline": "Moritz Stoltenburg",
+                "display_name": "Moritz Stoltenburg",
+                "email": "moritz.stoltenburg@zeit.de",
+                "first_name": "Moritz",
+                "invisible_stages": [],
+                "is_active": true,
+                "is_enabled": true,
+                "last_name": "Stoltenburg",
+                "needs_activation": false,
+                "phone": null,
+                "picture_url": "https://zeit.liveblog.pro/zeit/20180102170124/2cd1405dff853439e156efb7284254e0ffd7bfa5caa8a6a02513714e8e4b9df8.png",
+                "role": "54e64cde1024542de2649be9",
+                "session_preferences": {
+                  "5aa7adeb6aa4f5014d674a35": {
+                    "desk:items": [],
+                    "desk:last_worked": "",
+                    "pinned:items": [],
+                    "scratchpad:items": [],
+                    "stage:items": []
+                  }
+                },
+                "sign_off": "MS",
+                "user_preferences": {
+                  "agg:view": {
+                    "active": {}
+                  },
+                  "archive:view": {
+                    "allowed": [
+                      "mgrid",
+                      "compact"
+                    ],
+                    "category": "archive",
+                    "default": "mgrid",
+                    "label": "Users archive view format",
+                    "type": "string",
+                    "view": "mgrid"
+                  },
+                  "article:default:place": {
+                    "category": "article_defaults",
+                    "label": "Place",
+                    "place": [],
+                    "type": "list"
+                  },
+                  "categories:preferred": {
+                    "category": "categories",
+                    "label": "Preferred Categories",
+                    "selected": {},
+                    "type": "dict"
+                  },
+                  "dashboard:ingest": {
+                    "providers": []
+                  },
+                  "dateline:located": {
+                    "category": "article_defaults",
+                    "label": "Located",
+                    "type": "dict"
+                  },
+                  "desks:preferred": {
+                    "category": "desks",
+                    "label": "Preferred Desks",
+                    "selected": {},
+                    "type": "dict"
+                  },
+                  "destination:active": {},
+                  "editor:theme": {
+                    "theme": "",
+                    "type": "string"
+                  },
+                  "email:notification": {
+                    "category": "notifications",
+                    "default": true,
+                    "enabled": true,
+                    "label": "Send notifications via email",
+                    "type": "bool"
+                  },
+                  "feature:preview": {
+                    "category": "feature",
+                    "default": false,
+                    "enabled": false,
+                    "label": "Enable Feature Preview",
+                    "privileges": [
+                      "feature_preview"
+                    ],
+                    "type": "bool"
+                  },
+                  "singleline:view": {
+                    "category": "rows",
+                    "default": false,
+                    "enabled": null,
+                    "label": "Enable Single Line View",
+                    "type": "bool"
+                  },
+                  "spellchecker:status": {
+                    "default": true,
+                    "enabled": true,
+                    "type": "bool"
+                  },
+                  "templates:recent": {},
+                  "workqueue:items": {
+                    "items": []
+                  },
+                  "workspace:active": {
+                    "type": "string",
+                    "workspace": ""
+                  }
+                },
+                "user_type": "administrator",
+                "username": "slomo"
+              },
+              "particular_type": "post",
+              "place": [],
+              "post_items_type": "embed-brightcove",
+              "post_status": "open",
+              "priority": 3,
+              "published_date": "2018-03-13T11:05:38+00:00",
+              "publisher": {
+                "_created": "2017-12-20T15:08:29+00:00",
+                "_etag": "ae550282aaeecd4e444415346b0b1e3f3b6c0606",
+                "_id": "5a3a7ced6aa4f500eb91fea5",
+                "_updated": "2018-03-13T10:54:35+00:00",
+                "byline": "Moritz Stoltenburg",
+                "display_name": "Moritz Stoltenburg",
+                "email": "moritz.stoltenburg@zeit.de",
+                "sign_off": "MS",
+                "username": "slomo"
+              },
+              "pubstatus": "usable",
+              "schedule_settings": {
+                "time_zone": null,
+                "utc_embargo": null
+              },
+              "sign_off": "MS",
+              "source": "Liveblog",
+              "state": "draft",
+              "sticky": false,
+              "type": "composite",
+              "unique_id": 958,
+              "unique_name": "#958",
+              "urgency": 3,
+              "version_creator": "5a3a7ced6aa4f500eb91fea5",
+              "versioncreated": "2018-03-13T11:05:38+00:00"
+            },
+            {
                 "_created": "2018-01-18T13:33:04+00:00",
                 "_current_version": 1,
                 "_etag": "c570b3e95d51e88d53deb66821e70432116f7c1f",
