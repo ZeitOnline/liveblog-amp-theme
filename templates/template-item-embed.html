@@ -23,6 +23,15 @@
   </amp-instagram>
 {% elif ref.item.meta.provider_name == 'Brightcove' and ref.item.meta.original_url %}
   {{ ref.item.meta.original_url | ampify | safe }}
+  {% if ref.item.meta.title -%}
+    <div class="item--embed__title">{{ ref.item.meta.title }}</div>
+  {% endif -%}
+  {% if ref.item.meta.description -%}
+    <div class="item--embed__description">{{ ref.item.meta.description }}</div>
+  {% endif -%}
+  {% if ref.item.meta.credit and ref.item.meta.credit | lower != 'brightcove' -%}
+    <div class="item--embed__credit">{{ ref.item.meta.credit }}</div>
+  {% endif -%}
 {% else %}
   {% if ref.item.meta.html %}
     {{ ref.item.meta.html | ampify | safe }}
